@@ -1,0 +1,8 @@
+description: >
+  Lint / Format / Test を行います．
+parameters:
+  exit-on-error:
+    description: エラーが発生した際に中断操作を行うかどうかを設定します．
+    type: boolean
+    default: true
+  

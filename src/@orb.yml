@@ -1,0 +1,7 @@
+version: 2.1
+description: >
+  全プロジェクトで共通部品化を進めるための CircleCI 用 Orb です．
+  検証目的で作成しています．
+display:
+  home_url: https://github.com/kasaikou/orbs
+  source_url: https://github.com/kasaikou/orbs

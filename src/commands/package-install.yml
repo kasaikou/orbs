@@ -1,0 +1,16 @@
+description: >
+  Package のインストールを行います．
+parameters:
+  use-lockfile:
+    description: yarn.lock などのバージョン指定ファイルを用いてインストールを行います．
+    type: boolean
+    default: true
+  use-cache:
+    description: キャッシュの使用可否を設定します．
+    type: boolean
+    default: true
+  mode:
+    description: インストールで使用するパッケージマネージャを設定します．
+    type: string
+    enum: [poetry, yarn]
+jobs:
